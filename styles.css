@@ -1,0 +1,99 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #00ffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    padding: 20px;
+    box-shadow: 0px 0px 15px #ff00ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff;
+}
+
+button {
+    background: #00ffff;
+    color: #0d0d0d;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #00ffff;
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #00ffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    padding: 20px;
+    box-shadow: 0px 0px 15px #ff00ff;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reel {
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: #00ffff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #ff00ff;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+}
+
+button {
+    background: #00ffff;
+    color: #0d0d0d;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #00ffff;
+}
